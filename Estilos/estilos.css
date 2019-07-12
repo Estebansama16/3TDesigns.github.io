@@ -195,6 +195,15 @@ Footer ul li{
 
 
 /*Optimizacion de contenido para Otros Dispositivos*/
+@media screen and (max-width: 560px) {
+  .Main{
+    width: 90%;
+    max-width: 560px;
+    }
+    .Banner {
+    background: url('http://img.fenixzone.net/i/9XdSFBi.png');
+    }
+  }
 @media screen and (max-width:768px) {
   .Main{
   width: 95%;
@@ -219,51 +228,50 @@ Footer ul li{
     height: 192px;
   }
   }
-
-  @media screen and (max-width:425px) {
-  .Main{
-  width: 90%;
-  max-width: 425px;
+@media screen and (max-width:425px) {
+    .Main{
+    width: 90%;
+    max-width: 425px;
+    }
+    .Banner {
+    background: url('http://img.fenixzone.net/i/9XdSFBi.png');
+    }
+    .Datos{
+      display: none;
+    }
+    .Nosotros{
+      width: 100%;
+    }
+    .Contenedor3 img{
+    width: 100%
+    }
+    .Contenedor3{
+      height: 100px;
+    }
+    .Servicio1,.Servicio2,.Servicio3,.Servicio4{
+      width: 100%;
+    }
+    .Banner p{
+      width: 300px;
+      font-size: 1em;
+    }
+    .Banner h1{
+      font-size: 1em;
+      width: 400px;
+      line-height: normal;
+    }
+    .Nosotros p{
+      width: 300px;
+      font-size: 0.9em;
   }
-  .Banner {
-  background: url('http://img.fenixzone.net/i/9XdSFBi.png');
-  }
-  .Datos{
-    display: none;
-  }
-  .Nosotros{
-    width: 100%;
-  }
-  .Contenedor3 img{
-  width: 100%
-  }
-  .Contenedor3{
-    height: 100px;
-  }
-  .Servicio1,.Servicio2,.Servicio3,.Servicio4{
-    width: 100%;
-  }
-  .Banner p{
+  .Servicio1 p,.Servicio2 p,.Servicio3 p,.Servicio4 p{
+    font-size: 0.95em;
     width: 300px;
-    font-size: 1em;
-  }
-  .Banner h1{
-    font-size: 1em;
-    width: 400px;
     line-height: normal;
-  }
-  .Nosotros p{
-    width: 300px;
-    font-size: 0.9em;
-}
-.Servicio1 p,.Servicio2 p,.Servicio3 p,.Servicio4 p{
-  font-size: 0.95em;
-  width: 300px;
-  line-height: normal;
-  }
-.Logo{
-float: right;
-margin: 0 20px;
-display: inline-block;
-  }
+    }
+  .Logo{
+  float: right;
+  margin: 0 20px;
+  display: inline-block;
+    }
 }
